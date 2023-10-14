@@ -11,7 +11,7 @@ import com.sony.weatherapp.service.WeatherService;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/weather")
+@RequestMapping("/v1/weather")
 public class WeatherController {
 	
 	@Autowired
